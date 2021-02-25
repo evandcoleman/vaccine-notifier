@@ -1,0 +1,20 @@
+{
+  "name": "vaccine-notifier",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start index.js",
+    "stop": "forever stopall"
+  },
+  "author": "Evan Coleman <e@edc.me> (http://edc.me)",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "twilio": "^3.56.0"
+  },
+  "devDependencies": {
+    "forever": "^3.0.4"
+  }
+}
